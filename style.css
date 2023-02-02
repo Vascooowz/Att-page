@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+    background-color: black;
+    display: grid;
+    padding: px;
+    place-items: center;
+}
+
+.texts{
+    text-align: center;
+    background-image: linear-gradient(#ffffffd8, #d8d8d8bb);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.texts > h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+.texts > h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 50px;
+    color: gray;
+    margin-top: -7px;
+}
+
+.inputs > input{
+    text-align: center;
+    display: grid;
+    padding: 4px;
+    width: 100%;
+    background-color: #191970;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.inputs > input:hover{
+    background-color: #14145a;
+    border: 2px solid #1010ac;
+}
+
+.inputs > button:hover{
+    background-color: rgb(211, 211, 211);
+    border: 2px solid #1010ac;
+}
+
+.inputs > button{
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 100%;
+}
